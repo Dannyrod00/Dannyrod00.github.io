@@ -1,0 +1,132 @@
+/*******************************************
+UNIVERSAL SELECTOR
+*******************************************/
+
+* {}
+
+
+/********************************************
+General
+********************************************/
+
+body {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 2.5;
+}
+
+.main-header{
+    text-align: center;
+}
+
+.title {
+    /* To change font-size from px to em. Do this simple equation
+    whatevry the desired pixel is / 16
+    26px/16px +
+    */
+    font-size: 1.625em
+}
+
+.primary-content {
+    text-align: center;
+}
+
+.secondary-content {}
+
+.primary-content,
+.secondary-content {
+    width: 60%;
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+#main-footer {
+    border-bottom: solid 10px orange;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+/********************************************
+Headline elements
+********************************************/
+
+h1 {
+    font-size: 5.625em;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 2.3;
+}
+
+h2 {
+    font-size: 53px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/********************************************
+Colors
+********************************************/
+
+body {
+    color: #878787;
+}
+
+.title {
+    color: #fff;
+}
+
+.main-header {
+    background-color: #ffa949;
+}
+
+ul li {
+    background-color: tomato;
+    color: #fff;
+}
+
+header {
+    background-color: #ffa949;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3 {
+    color: #4852c;
+}
+
+
+/***********************************************
+CSS pseudo class 
+***********************************************/
+
+a:link {
+    color: #ffa949;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: coral;
+}
+
+a:focus {
+    background-color: #ffa949;
+    color: #fff;
+}
