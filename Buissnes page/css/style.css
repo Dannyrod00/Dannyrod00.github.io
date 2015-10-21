@@ -42,6 +42,10 @@ body {
     border-top: 2px solid lightgrey;
 }
 
+.wilslife {
+    padding: 100px 120px 100px 120px;
+}
+
 #main-footer {
     border-bottom: solid 10px orange;
     padding-bottom: 60px;
@@ -87,6 +91,11 @@ body {
     background-color: #ffa949;
 }
 
+.wildlife {
+    color: white;
+    background-color: #434a52
+}
+
 ul li {
     background-color: tomato;
     color: #fff;
@@ -101,7 +110,7 @@ h1 {
 }
 
 h3 {
-    color: #4852c;
+    color: #4852ca;
 }
 
 

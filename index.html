@@ -1,54 +1,505 @@
-<!doctype html>
-<html>
+    <!DOCTYPE html>
+    <html>
+      <head>
+            <meta charset="utf-8">
+           <meta name="description" content="">
+          <meta name="description" content="width=device-width, initial-scale=1">
+            <title>D-Rod Landing Page</title>
+    <!--   browsers read top to bottom   -->
+          <link rel="stylesheet" href="normalize.css">
+          <link rel="stylesheet" href="CSS/bootstrap-theme.min.css">
+          <link rel="stylesheet" href="CSS/bootstrap.min.css">
+          <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+          
+          <link rel="stylesheet" href="style.css">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lake Tahoe</title>
-    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="author" href="humans.txt">
+    </head>
+        
+         <body>
+             
+             <div  class="parallax" data-parallax="scroll" data-image-src="img/parralax.jpg">
+             
+    <!--    part of web content    -->
+             <header id="logo">
+    <!--     a = anchor anchors url, hyper link ref       -->
+      
+    <!--      HeadLine 1      -->
+             <h1>Danny-Rod</h1>
+<!--             <h2>student</h2>-->
+              
+    <!--      nav= navigation       -->
+                 <nav>
+    <!--      ul=unordered list (bullet points)       -->
+                     <ul>
+    <!--         li= list item          -->
+                         <li> <a href="index.html" class="selected"> Portfolio </a> </li>
+                         <li> <a href="http://www.theappacademy.us/"> App Academy </a> </li>
+
+                     </ul>
+
+                 </nav>
+
+             </header>
+
+             <div id="wrapper">  
+                 
+                              
+                  <section class="about">
+                     
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         About Me
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+          
+       <img class="img-circle" src="img/bannana%20man.png" href="img/bannana%20man.png" alt="my-pic" class="profile-pic"> <br />
+          
+          Hello my name is Daniel Rodriguez and I am a student at Pasadena High School. <br />
+          I have just started my sophimore year a few weeks ago. <br />
+          I am learning how to program games and websites. 
+          
+      </div>
+    </div>
+  </div>
+  <div class="panel2panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          General Information
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+       
+         Email, phone, Facebook, and Instagram are the best way of contacting me.<br />
+         This website was made for a school project and will become my personal portfolio<br />
+          
+          
+      </div>
+    </div>
+  </div>
+  <div class="panel3panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Contacts
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+     
+           <ul class="contactInfo">
+                                
+                <li class="mail"><a href="mailto:dannyrodriguez822@gmail.com">Email</a></li> 
+               
+                <li class="fb" class="glyphicon glyphicon-comment"><a href="messageto:100008067360402@facebook.com">Face Book</a></li> 
+               
+           </ul>
+         
+      </div>
+    </div>
+  </div>
+<div class="panel4panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Contact Form
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+      
+                  <form action="mailto:dannyrodriguez822@gmail.com" method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+              </div>
+
+                      <div class="button">
+            <button type="submit" class="btn btn-primary">Send your message</button>
+                     </div>
+
+                  </form>
+          
+      </div>
+    </div>
+  </div>
+             <div class="panel5panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          place holder
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body">
+      place holder
+      </div>
+    </div>
+  </div>
+                       <div class="panel6panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          My Teachers
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+      
+          <a href="img/Baez.jpg"><img class="img-circle" src="img/Baez.jpg" href="img/Baez.jpg" alt="my-pic" class="profile-pic"></a> 
+          <img class="img-circle" src="img/Larrithulu1.jpg" href="img/Larrithulu1.jpg" alt="my-pic" class="profile-pic"> <br />
+          
+          these are my teachers "left" is my sofmore teacher Mr.Baez "right" is my freshmen teacher Mr.Larramore
+          
+      </div>
+    </div>
+  </div>  
+</div>
+                  
+                      
+                    <button type="button" class="close" data-toggle="collapse" data-target="#accordion">Collapse</button>  
+                      
+                      
+                </section>
+            
+                 <section>
+
+                   <ul id="gallery">
+
+                    <li class="img">
+<!--               src= source alt=alt for source put where located in folders       -->
+                     <a href="img/port%201.png">
+                       <img src="img/port%201.png" alt="this was my first website I have made.">
+                       <p>this is a picture of my first portffolio website</p>
+                     </a>
+                    </li>
+                    <li class="img1">
+                     <a href="img/Port%202.png">
+                       <img src="img/Port%202.png" alt="my second website."> 
+                       <p>this is a picture of my portfolio two</p>
+                     </a>
+                    </li>
+                    <li class="img">
+                     <a href="img/place%20holder.png">
+                       <img src="img/place%20holder.png" alt="Placeholder text image.">
+                       <p>img2</p>
+                      </a>     
+                    </li>
+                       <li class="img1">
+                        <a href="img/place%20holder.png">
+                          <img src="img/place%20holder.png" alt="Placeholder text image.">
+                          <p>img3</p>
+                        </a>
+                    </li>
+                       <li class="img">
+                        <a href="img/place%20holder.png">
+                          <img src="img/place%20holder.png" alt="Placeholder text image.">
+                          <p>img4</p>
+                        </a>
+                    </li>
+                       <li class="img1">
+                        <a href="img/place%20holder.png">
+                          <img src="img/place%20holder.png" alt="Placeholder text image.">
+                          <p>img5</p>
+                        </a>        
+                    </li>
+                   </ul>
+                     
+                 </section>
+                 
+           <section>
+                 
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Contact Me
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                  </div>
+                  <div class="modal-body">
+                  
+                                   <form action="mailto:dannyrodriguez822@gmail.com" method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+              </div>
+
+                      <div class="button">
+            <button type="submit" class="btn btn-primary btn-sm">Send your message</button>
+                     </div>
+
+                  </form>
+                      
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Send Files</h4>
+                      </div>
+                          
+            <form action="mailto:dannyrodriguez822@gmail.com" method="post" enctype="multipart/form-data" class="sendthing">
+                  <input type="file" name="myFile">
+                  <button class="sendthing" class="btn btn-primary btn-sm">Send File</button>
+                </form>
+                      
+                  </div>
+            </div>
+                     
+                 </section>
+
+                 
+                <footer class="footer">
+        <!--      absolute path needed only if necessary      -->
+                 
+                    <a href="http://facebook.com"> <img src="img/fb.png" alt="Facebook Handle" > </a>
+                    <a href="https://instagram.com/dani_rod__/"> <img src="img/insta.png" alt="Instagram Handle" > </a>
+                  
+                <p>&copy; 2015 danny rod </p>
+               </footer>
+                 
+             </div>
+
+             </div>
+                 
+                 <div>
+                 
+                 <style class="cp-pen-styles">
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #161616;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.open {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.open:hover { opacity: 0.8; }
+
+.open span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 9;
+}
+
+.open span:nth-child(2) { margin-top: 25px; }
+
+.open span:nth-child(3) { margin-top: 40px; }
+
+.sub-menu {
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 119, 119, 1);
+  border-radius: 50%;
+  z-index: 18;
+  overflow: hidden;
+}
+
+.sub-menu li {
+  display: block;
+  float: right;
+  clear: both;
+  height: auto;
+  margin-right: -160px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child { margin-top: 180px; }
+
+.sub-menu li:nth-child(1) { -webkit-transition-delay: 0.05s; }
+
+.sub-menu li:nth-child(2) { -webkit-transition-delay: 0.10s; }
+
+.sub-menu li:nth-child(3) { -webkit-transition-delay: 0.15s; }
+
+.sub-menu li:nth-child(4) { -webkit-transition-delay: 0.20s; }
+
+.sub-menu li:nth-child(5) { -webkit-transition-delay: 0.25s; }
+
+.sub-menu li a {
+  color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 40px;
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 400px;
+  width: 400px;
+}
+
+.oppenned span:nth-child(2) { overflow: visible; }
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+  z-index: 100;
+  transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) { transform: rotate(45deg) translateY(12px) translateX(12px); }
+
+.oppenned span:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  right: -160px;
+  top: -160px;
+  border-radius: 50%;
+  background-color: rgba(0, 51, 51, 0.87);
+}
+
+.oppenned span:nth-child(3) { transform: rotate(-45deg) translateY(-10px) translateX(10px); }
+
+.oppenned li { margin-right: 168px; }
+</style>
 </head>
 
 <body>
-    <header id="top" class="main-header">
-        <span class="title">Journey through the Sierra Navada Mountains.</span>
-        <h1>Lake Tahoe</h1>
-    </header>
-    <div class="primary-content t-border">
-        <p>
-            Lake Tahoe is one of the most beautiful places in California.
-        </p>
-        <a href="#">Find out more</a>
-    </div>
-    <div>
-        <h2>Check out all the wildlife</h2>
-        <!-- Bacon Lorem Ipsum -->
-        <p>Bacon ipsum dolor amet spare ribs short ribs kielbasa alcatra frankfurther pastrami filet mignon. Chicken shoulder vension, tongue kielbasa frankfurther jerky jowl flank beef ribs ribeye doner short loin. Cow ham hock drumstick meatloaf ribeye vension tenderloin boudin kevin pig rump Ham hock bacon chunk strip steak vension, pig capicola pastrami.</p>
-        <a href="#">See the Wildlife.</a>
-    </div>
-    <div class="secondary-content">
-        <h3>From Tents to Resorts</h3>
-        <p>Lake Tahoe is a wonderful place to stay.</p>
-        <ul>
-            <li><a href="#">Lake Tahoe Resort Motel</a></li>
-            <li><a href="#">South Lake Tahoe Resorts</a></li>
-            <li><a href="#">Tahoe Ski Resort Loding</a></li>
-        </ul>
-        <h3>Pack Accordingly</h3>
-        <p>One of the most important things when it comes to traveling is pack accordingly.</p>
-        <ol>
-            <li>Bring layers of clothing</li>
-            <li>Pack sunscreen</li>
-            <li>Carry extra water just in case</li>
-            <li>Pack light</li>
-        </ol>
-    </div>
-    <footer id="main-footer" class="t-border">
-        <p>All rights reserved to the state of <a href="#">California</a></p>
-        <a href="#top">Back to the top &raquo;</a>
-    </footer>
-    <script src="js/main.js"></script>
-</body>
+<div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="open"> <span class="cls"></span> <span>
+  <ul class="sub-menu ">
+   <li>
+                                <a href="http://gabriel-codina.github.io">Gabriel</a>
+                              </li>
+                              <li>
+                                <a href="http://RicardoHarris.github.io">Ricardo</a>
+                              </li>
+                              <li>
+                                <a href=" http://www.malfitanonicholas-portfolio.hoxty.com">Nick</a>
+                              </li>
+  </ul>
+  </span> <span class="cls"></span> </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script>
+$(document).ready(function() {
+		$(document).delegate('.open', 'click', function(event){
+			$(this).addClass('oppenned');
+			event.stopPropagation();
+		})
+		$(document).delegate('body', 'click', function(event) {
+			$('.open').removeClass('oppenned');
+		})
+		$(document).delegate('.cls', 'click', function(event){
+			$('.open').removeClass('oppenned');
+			event.stopPropagation();
+		});
+	});
+</script>
+<script type="text/javascript">
 
-</html>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+                 
+                 </div>
+
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+             <script src="parallax/parallax.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js" ></script>
+                 
+        </body>
+    </html>
