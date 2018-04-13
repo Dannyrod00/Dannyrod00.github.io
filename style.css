@@ -12,7 +12,6 @@
 
     #wrapper {
         max-width: 940px;
-        margin: 0 auto;
         padding: 0 5%;
         text-align: center;
         padding-top: 350px;
@@ -221,13 +220,18 @@
      color: #fff;
      }
 
-     .img{
+     .imgf{
          float: left;
      }
   
-     .img1{
+     .imgf1{
          float: right;
      }
+
+    li{
+    margin: 10;
+    }
+
 
      .img:hover{
         -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.7);
